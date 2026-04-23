@@ -1,0 +1,35 @@
+# ==================================================
+# Integrasi_Mobile/Experiment - Python dependencies
+# ==================================================
+# Install:
+#   pip install -r requirements.txt
+
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+seaborn>=0.12
+
+# Computer vision / image processing
+opencv-python>=4.8
+Pillow>=10.0
+scikit-image>=0.21
+
+# Deep learning (CPU/GPU depends on your PyTorch install channel)
+torch>=2.1
+torchvision>=0.16
+torchaudio>=2.1
+
+# HTR / experiment utilities
+tqdm>=4.66
+PyYAML>=6.0
+
+# Dataset and notebook workflow
+datasets>=2.16
+jupyter>=1.0
+notebook>=7.0
+ipykernel>=6.0
+
+# Optional but commonly used in augmentation experiments
+albumentations>=1.4
