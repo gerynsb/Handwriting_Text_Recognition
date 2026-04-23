@@ -1,0 +1,5 @@
+Experiment,Val CER,Val CER (CI),Val WER,Val WER (CI),Test CER,Test CER (CI),Test WER,Test WER (CI),Time (min)
+1. Greedy (Baseline),4.65%,4.51%,17.00%,16.47%,6.88%,6.62%,22.58%,21.92%,0.2
+2. Beam Search (width=10),4.65%,4.51%,17.00%,16.47%,6.88%,6.62%,22.58%,21.92%,4.9
+3. Beam Search + LM,4.56%,4.41%,16.58%,16.06%,6.70%,6.45%,21.74%,21.09%,4.9
+4. Beam + LM + TTA,4.56%,4.41%,16.58%,16.06%,6.70%,6.45%,21.74%,21.09%,7.8

@@ -1,0 +1,133 @@
+{
+  "camera_conditions": {
+    "Original (No Augmentation)": {
+      "mean_cer": 9.055238022763646,
+      "std_cer": 7.926148545643009
+    },
+    "Gaussian Blur (Light, k=3)": {
+      "mean_cer": 8.861928160221758,
+      "std_cer": 7.982360859854001
+    },
+    "Gaussian Blur (Medium, k=5)": {
+      "mean_cer": 8.88647364210987,
+      "std_cer": 7.945045182637581
+    },
+    "Gaussian Blur (Heavy, k=7)": {
+      "mean_cer": 8.68768434446426,
+      "std_cer": 7.7625475366181345
+    },
+    "Motion Blur (k=10)": {
+      "mean_cer": 11.565714272692698,
+      "std_cer": 10.633988776298693
+    },
+    "Motion Blur (k=15)": {
+      "mean_cer": 23.7078594320177,
+      "std_cer": 17.626938955047127
+    },
+    "Gaussian Noise (std=15)": {
+      "mean_cer": 9.125078225500202,
+      "std_cer": 8.083044897529637
+    },
+    "Gaussian Noise (std=25)": {
+      "mean_cer": 9.759392964977145,
+      "std_cer": 8.67060293444498
+    },
+    "Gaussian Noise (std=40)": {
+      "mean_cer": 10.695503745853944,
+      "std_cer": 8.927051849213239
+    },
+    "Salt & Pepper (1%)": {
+      "mean_cer": 19.97951000687422,
+      "std_cer": 12.007777460538726
+    },
+    "Salt & Pepper (3%)": {
+      "mean_cer": 19.14332282369947,
+      "std_cer": 11.631058862307263
+    },
+    "Rotation (+3\u00b0)": {
+      "mean_cer": 13.56250336233377,
+      "std_cer": 10.306879580888662
+    },
+    "Rotation (+5\u00b0)": {
+      "mean_cer": 27.83437645223386,
+      "std_cer": 14.337097260833149
+    },
+    "Rotation (+10\u00b0)": {
+      "mean_cer": 62.094475961230046,
+      "std_cer": 11.67968458173224
+    },
+    "Rotation (-5\u00b0)": {
+      "mean_cer": 26.144369731160143,
+      "std_cer": 15.83402660251153
+    },
+    "Brightness (Dark, 0.6x)": {
+      "mean_cer": 9.345159637367619,
+      "std_cer": 8.09317819085061
+    },
+    "Brightness (Bright, 1.3x)": {
+      "mean_cer": 10.65432741889086,
+      "std_cer": 8.583477147404887
+    },
+    "Brightness (Very Bright, 1.5x)": {
+      "mean_cer": 12.265587823347326,
+      "std_cer": 9.55221577391341
+    },
+    "Low Contrast (0.5x)": {
+      "mean_cer": 9.58382020573184,
+      "std_cer": 8.089141932261692
+    },
+    "High Contrast (1.5x)": {
+      "mean_cer": 9.864941144511317,
+      "std_cer": 8.232911516490333
+    },
+    "Low Resolution (0.5x)": {
+      "mean_cer": 8.94046192620745,
+      "std_cer": 7.923297804757895
+    },
+    "Low Resolution (0.3x)": {
+      "mean_cer": 8.901129890144784,
+      "std_cer": 8.08479531200213
+    },
+    "Perspective Distortion (5%)": {
+      "mean_cer": 16.379194355432595,
+      "std_cer": 10.7651529073479
+    },
+    "Perspective Distortion (10%)": {
+      "mean_cer": 26.689787677511244,
+      "std_cer": 12.727487581191527
+    }
+  },
+  "preprocessing_ablation": {
+    "Standard (Baseline)": {
+      "mean_cer": 9.055238022763646,
+      "std_cer": 7.926148545643009
+    },
+    "No Aspect Ratio Preservation": {
+      "mean_cer": 10.32234328592154,
+      "std_cer": 12.22317292874162
+    },
+    "With Binarization": {
+      "mean_cer": 10.909880221705157,
+      "std_cer": 8.83221875205912
+    },
+    "With Deskew": {
+      "mean_cer": 9.189947139563916,
+      "std_cer": 7.846543601657744
+    }
+  },
+  "per_writer_stats": {
+    "summary": {
+      "total_writers": 1,
+      "mean_cer": 7.340042839385326,
+      "std_cer": 0.0,
+      "min_cer": 7.340042839385326,
+      "max_cer": 7.340042839385326
+    },
+    "per_writer": {
+      "unknown": {
+        "mean_cer": 7.340042839385326,
+        "n_samples": 2915
+      }
+    }
+  }
+}

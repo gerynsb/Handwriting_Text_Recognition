@@ -1,0 +1,33 @@
+{
+  "exp_architecture_rnn_20260224_074852": {
+    "experiment_id": "exp_architecture_rnn_20260224_074852",
+    "experiment_name": "BiGRU 2x512",
+    "description": "GRU 2x512",
+    "table_category": "architecture_rnn",
+    "cnn_output_channels": 512,
+    "rnn_type": "GRU",
+    "rnn_hidden_size": 512,
+    "rnn_num_layers": 2,
+    "rnn_dropout": 0.3,
+    "bidirectional": true,
+    "finetune_lr": 0.001,
+    "finetune_batch_size": 32,
+    "finetune_epochs": 100,
+    "optimizer": "AdamW",
+    "augment_train": true,
+    "aug_shear": true,
+    "aug_rotate": true,
+    "aug_blur": true,
+    "aug_noise": true,
+    "aug_brightness": true,
+    "use_pretrain": false,
+    "freeze_cnn": false,
+    "freeze_rnn": false,
+    "pretrain_checkpoint": "pretrain_best.pt",
+    "scheduler_patience": 5,
+    "scheduler_factor": 0.5,
+    "early_stop_patience": 15,
+    "image_height": 64,
+    "image_width": 512
+  }
+}

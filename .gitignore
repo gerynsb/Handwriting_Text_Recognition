@@ -1,0 +1,90 @@
+# =========================
+# Root ignore for Integrasi_Mobile
+# =========================
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Python / Flask ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Flask local/runtime files
+Flask/.env
+Flask/.env.*
+!Flask/.env.example
+Flask/logs/
+Flask/uploads/
+Flask/instance/
+Flask/*.sqlite
+Flask/*.db
+
+# ---- Experiment (heavy artifacts) ----
+# Main heavy folder requested by user
+Experiment/Model/
+
+# Common ML artifacts
+**/saved_models/
+**/checkpoints/
+**/runs/
+**/wandb/
+**/mlruns/
+**/training_output/
+**/outputs/
+**/logs/
+
+# Large binary artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.tflite
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pickle
+*.pkl
+*.joblib
+*.tar
+*.zip
+*.7z
+
+# ---- Flutter / Dart ----
+MobileApp/.dart_tool/
+MobileApp/.flutter-plugins
+MobileApp/.flutter-plugins-dependencies
+MobileApp/.packages
+MobileApp/.metadata
+MobileApp/build/
+
+# Android build artifacts
+MobileApp/android/.gradle/
+MobileApp/android/app/build/
+MobileApp/android/local.properties
+
+# iOS/macOS generated
+MobileApp/ios/Pods/
+MobileApp/ios/.symlinks/
+MobileApp/macos/Pods/
+MobileApp/macos/Flutter/ephemeral/
+
+# Windows/Linux generated
+MobileApp/windows/flutter/ephemeral/
+MobileApp/linux/flutter/ephemeral/
+
+# Keep source notebooks and docs by default.
+# If you want to exclude extra heavy datasets later, add specific paths below.
